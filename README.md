@@ -11,6 +11,15 @@ This project implements a real-time attention tracking system using webcam input
   <img src="demo/output2.gif" width="600"/>
 </p>
 
+---
+
+## Table of Contents
+- [Features](#features)
+- [System Overview](#system-overview)
+- [Folder Structure](#folder-structure)
+- [Getting Started](#getting-started)
+- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -30,8 +39,6 @@ This project implements a real-time attention tracking system using webcam input
 ## System Overview
 
 This attention tracking system processes real-time webcam input and computes an attentiveness score using multimodal cues — including facial landmarks, body posture, and emotion recognition. It is designed to be modular, lightweight, and interpretable for applications in education, robotics, and human-computer interaction.
-
-### Architecture Diagram
 
 The diagram below illustrates the system pipeline. Webcam frames are processed through MediaPipe to extract pose and face landmarks. These are passed into evaluators that compute both neural network-compatible features and handcrafted rule-based indicators. The final attention score is a fusion of both neural and rule-based outputs.
 
