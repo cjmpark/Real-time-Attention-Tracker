@@ -3,8 +3,14 @@
 This project implements a real-time attention tracking system using webcam input. It extracts facial landmarks, body posture, and facial emotion features using MediaPipe and deep learning models, then fuses them to compute an attention score. 
 > This project was developed during my internship at **Robocare**, South Korea.
 
-![Attention Tracker Demo](demo/output.gif)
-![Attention Tracker Demo](demo/output2.gif)
+<p align="center">
+  <img src="demo/output.gif" width="600"/>
+</p>
+
+<p align="center">
+  <img src="demo/output2.gif" width="600"/>
+</p>
+
 
 ---
 
@@ -14,8 +20,10 @@ This project implements a real-time attention tracking system using webcam input
 - **Facial Feature Extraction** – head yaw/pitch/roll, gaze direction, blink detection using MediaPipe FaceLandmarker
 - **Emotion Classification** – fine-tuned MobileNetV2 model classifies expressions (FER2013-based)
 - **Real-time Inference** – unified system outputting attentiveness scores in real time
-  
-![Attention Tracker Demo](demo/workflow.png)
+
+<p align="center">
+  <img src="demo/workflow.png" width="700" height="500"/>
+</p>
 
 ---
 
@@ -27,9 +35,9 @@ This attention tracking system processes real-time webcam input and computes an 
 
 The diagram below illustrates the system pipeline. Webcam frames are processed through MediaPipe to extract pose and face landmarks. These are passed into evaluators that compute both neural network-compatible features and handcrafted rule-based indicators. The final attention score is a fusion of both neural and rule-based outputs.
 
-![System Pipeline](demo/pipeline.png)
-
-![System Pipeline](demo/workflow.png)
+<p align="center">
+  <img src="demo/pipeline.png" width="500" height="700"/>
+</p>
 
 ---
 
