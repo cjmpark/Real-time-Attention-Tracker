@@ -1,0 +1,14 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.2
+tqdm>=4.66
+joblib>=1.4
+
+PyQt5>=5.15
+matplotlib>=3.7
+opencv-python>=4.8
+
+mediapipe>=0.10.7
+
+scikit-learn>=1.4
