@@ -2,6 +2,7 @@
 
 This project implements a real-time attention tracking system using webcam input. It extracts facial landmarks, body posture, and facial emotion features using MediaPipe and deep learning models, then fuses them to compute an attention score. 
 > This project was developed during my internship at **Robocare**, South Korea.
+> This project is currently in development and not intended for commercial use. Contact me if you're interested in collaboration or usage.
 
 <p align="center">
   <img src="demo/output.gif" width="600"/>
@@ -95,7 +96,6 @@ python uiui.py
 ---
 
 ## License
-
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for full license text.
 
