@@ -105,7 +105,7 @@ See the [LICENSE](LICENSE) file for full license text.
 
 Developed by [@cjmpark](https://github.com/cjmpark) during an internship at **Robocare**, South Korea.
 
-Feel free to fork, star ⭐, or open an issue for feedback or collaboration!
+Feel free to fork, star, or open an issue for feedback or collaboration!
 
 
 
